@@ -1,6 +1,13 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-02-23 15:09:06
+ * @LastEditTime: 2020-02-23 15:44:35
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \jun-yuan-qi\src\App.vue
+ -->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -13,11 +20,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
 }
 </style>
